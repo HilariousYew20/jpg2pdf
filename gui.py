@@ -2,7 +2,7 @@
 """
 Created on Mon Feb 22 21:37:03 2021
 
-@author: aliih
+@author: Ali İhsan Sarı
 """
 
 from tkinter import *
@@ -26,7 +26,7 @@ def konum_al():
         name = e1.get()
         
         if len(filez) == 0: 
-            messagebox.showerror('Please select files', 'You have to choose the file. Please select a file and try again. If you select a file and get this error, contact me. My e-mail address is ihsanzede09@gmail.com.')
+            messagebox.showerror('Please select files', 'You have to choose the file. Please select a file and try again. If you select a file and get this error, contact me.')
         
         else:
             separate = rb1.get()
